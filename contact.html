@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <fieldset id="nav">
+                <legend>Links</legend>
+                <ul>
+                    <li><a href="index.html" class="link">Página Principal</a></li>
+                    <li><a href="service.html" class="link">Serviços da Clínica</a></li>
+                    <li><a href="about.html" class="link">Sobre a Clínica</a></li>
+                </ul>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.1438741922!2d-46.92495646245477!3d-23.68206355507531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1697208086364!5m2!1spt-BR!2sbr"
+                    width="200" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </fieldset>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <form action="">
+                    <fieldset id="flickflick">
+                        <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome:</label><input type="text" name="nome" placeholder="Digite seu nome">
+                        <br>
+                        <label for="idade">Idade:</label><input type="number" name="idade" min="0" max="90">
+                        <br>
+                        <label for="email">Email:</label><input type="email" name="email"
+                            placeholder="Digite seu Email">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Assunto</legend>
+                        <label for="reclamacao">Ajuda</label><input type="radio" name="reclamacao">
+                        <label for="reclamacao">Reclamação</label><input type="radio" name="reclamacao">
+                        <label for="reclamacao">Sugestão</label><input type="radio" name="reclamacao">
+                        <br>
+                        <label for="mensagem">Mensagem:</label><textarea name="mensagem" cols="30" rows="2"
+                            placeholder="Digite aqui sua mensagem"></textarea>
+                    </fieldset>
+                    <input type="reset" class="end" value="Limpar">
+                    <input type="submit" class="end">
+
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <p>Endereço: SP - Bairro Canoinha - Rua Oscar Medeiros 714</p>
+                        <p>Email: medicina.org.ofc@gmail.com</p>
+                        <p>Telefone: 3522274809</p>
+                        <p>Whatsapp: 11 9852672278</p>
+                    </fieldset>
+
+                </form>
+            </div>
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
